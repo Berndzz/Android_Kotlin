@@ -92,8 +92,29 @@
             />
 
 
-
     </LinearLayout>
+
+    <include
+        android:id="@+id/ibanner"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/activity_banner"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:layout_margin="30dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvRecommended"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            tools:listitem="@layout/activity_recommended" />
+
+    </ScrollView>
+
 
 
 </LinearLayout>

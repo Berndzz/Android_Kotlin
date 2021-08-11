@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">App_1</string>
     <string name="password">password</string>
+    <string name="underiline"><u>Klik untuk buat akun</u>.</string>
 </resources>

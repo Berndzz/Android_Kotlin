@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="15dp"
-        android:background="@color/white"
+        android:background="@drawable/rad_corner"
         android:ems="10"
         android:hint="username"
         android:inputType="textPersonName" />
@@ -28,7 +28,8 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
-        android:background="@color/white"
+
+        android:background="@drawable/rad_corner"
         android:ems="10"
         android:padding="15dp"
         android:hint="password"
@@ -37,7 +38,6 @@
     <Button
         android:id="@+id/btnLogin"
         android:layout_margin="10dp"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
